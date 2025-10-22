@@ -1,0 +1,61 @@
+/* footer*/
+.footerLarge {
+  display: none;
+}
+@media (min-width: 1025px) {
+  .footerLarge {
+    display: block;
+  }
+
+  .main:hover {
+    text-decoration: none;
+  }
+
+  .reword:hover {
+    color: darkorange;
+  }
+
+  .pay:hover {
+    color: deepskyblue;
+  }
+
+  .bordColor:hover {
+    border-color: darkorange;
+    color: darkorange;
+    background-color: #282828;
+  }
+
+  .socialIcon {
+    font-size: 22px;
+  }
+
+  .socialIcon:hover {
+    color: darkorange;
+  }
+}
+.footerSmallDevices {
+  display: none;
+}
+@media (max-width: 1025px) {
+  .footerSmallDevices {
+    display: block;
+  }
+}
+
+/* button scroll to top */
+#myBtn {
+  display: block;
+  position: fixed;
+  right: 40px;
+  bottom: 20px;
+  z-index: 99;
+  border-radius: 50%;
+  padding: 12px;
+  background-color: darkorange;
+  transition: 0.3s ease;
+}
+
+#myBtn:hover {
+  background-color: rgb(246, 178, 5);
+  cursor: pointer;
+}
